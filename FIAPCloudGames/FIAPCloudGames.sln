@@ -5,7 +5,16 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3677CE70-2AD8-4757-A9EA-640C267BD24B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIAPCloudGames", "src\FIAPCloudGames\FIAPCloudGames.csproj", "{42EC83E1-0FF8-45EC-A0BE-7D15608FCAC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIAPCloudGames.WebApi", "src\FIAPCloudGames\FIAPCloudGames.WebApi.csproj", "{42EC83E1-0FF8-45EC-A0BE-7D15608FCAC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIAPCloudGames.Infrastructure", "src\FIAPCloudGames.Infrastructure\FIAPCloudGames.Infrastructure.csproj", "{CD64AB95-2748-4476-A27C-C204DFC88B95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIAPCloudGames.Domain", "src\FIAPCloudGames.Domain\FIAPCloudGames.Domain.csproj", "{0B90EA97-6CAF-4FEC-ACCF-759712A1E2A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{380A7511-A354-6D7A-0CC0-8FA1F1BA7B6C}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +26,22 @@ Global
 		{42EC83E1-0FF8-45EC-A0BE-7D15608FCAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42EC83E1-0FF8-45EC-A0BE-7D15608FCAC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42EC83E1-0FF8-45EC-A0BE-7D15608FCAC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD64AB95-2748-4476-A27C-C204DFC88B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD64AB95-2748-4476-A27C-C204DFC88B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD64AB95-2748-4476-A27C-C204DFC88B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD64AB95-2748-4476-A27C-C204DFC88B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B90EA97-6CAF-4FEC-ACCF-759712A1E2A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B90EA97-6CAF-4FEC-ACCF-759712A1E2A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B90EA97-6CAF-4FEC-ACCF-759712A1E2A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B90EA97-6CAF-4FEC-ACCF-759712A1E2A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{42EC83E1-0FF8-45EC-A0BE-7D15608FCAC5} = {3677CE70-2AD8-4757-A9EA-640C267BD24B}
+		{CD64AB95-2748-4476-A27C-C204DFC88B95} = {3677CE70-2AD8-4757-A9EA-640C267BD24B}
+		{0B90EA97-6CAF-4FEC-ACCF-759712A1E2A4} = {3677CE70-2AD8-4757-A9EA-640C267BD24B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D94D623-9FFF-4758-9D39-80494C5F09C3}

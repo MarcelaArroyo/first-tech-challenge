@@ -1,4 +1,5 @@
 ﻿using FIAPCloudGames.DependencyInjection.Swagger;
+using FIAPCloudGames.Infrastructure.DependencyInjection.Extensions;
 
 namespace FIAPCloudGames
 {
@@ -10,6 +11,7 @@ namespace FIAPCloudGames
             services.AddControllers();
             services.AddEndpointsApiExplorer();
             services.AddSwaggerConfiguration(Configuration);
+            services.AddEntityFrameworkCoreConfiguration(Configuration);
         }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
